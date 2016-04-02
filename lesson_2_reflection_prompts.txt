@@ -10,11 +10,15 @@ before commiting a change you need to add the file that was changed in the stagi
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are helpful when you want to keep different versions of your files. 
 
 How do the diagrams help you visualize the branch structure?
+diagrams help in easily locating the branch and figuring out what version are where. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two bracnhes combines the content of two versions into one. If there is a conflict, you can resolve the conflict by modifiying the specific conflict sections. 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Automatic merge works only when there is no conflict. If there is one, Git marks the conflict areas so it's easy for you to resolve the conflict. 
